@@ -1,0 +1,5 @@
+{
+	"NavigationType": "Cross",
+	"PageToOpen": "/CollabUsingGit/Pages/Page_Master.page",
+	"_Type": "Action.Type.Navigation"
+}

@@ -1,0 +1,35 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "8b045779-43be-4ce3-bac9-564708a2a9cf",
+		"Space": "c6b6fede-84c1-485a-ae38-991a2a33f926",
+		"Deploy": {
+			"WebClient": {
+				"AutoUrl": true,
+				"Version": "",
+				"StaticUrl": ""
+			},
+			"Destination": [
+				{
+					"CF": "",
+					"MDK": "com.sap.edm.sampleservice.v2",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/8b045779-43be-4ce3-bac9-564708a2a9cf/space/c6b6fede-84c1-485a-ae38-991a2a33f926",
+		"AppId": "com.sap.mdk.demo",
+		"Destination": [
+			"com.sap.edm.sampleservice.v2",
+			"ConnSHS001_Soltius"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=com.sap.mdk.demo&ClientId=d0927915-36b8-4f82-a458-4214d2635da6&SapCloudPlatformEndpoint=https://950dd28dtrial-dev-com-sap-mdk-demo.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://950dd28dtrial-dev-com-sap-mdk-demo.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://950dd28dtrial-dev-com-sap-mdk-demo.cfapps.eu10.hana.ondemand.com&TokenUrl=https://950dd28dtrial-dev-com-sap-mdk-demo.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	}
+}

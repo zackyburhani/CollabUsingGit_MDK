@@ -1,0 +1,9 @@
+{
+	"Service": "/CollabUsingGit/Services/serviceGit.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/CollabUsingGit/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/CollabUsingGit/Actions/Service/SyncFailureMessage.action"
+}

@@ -1,0 +1,14 @@
+{
+	"Service": "/CollabUsingGit/Services/serviceGit.service",
+	"DefiningRequests": [
+	{
+		"Name": "Customers",
+		"Query": "Customers"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/CollabUsingGit/Actions/Service/SyncFailureMessage.action"
+}

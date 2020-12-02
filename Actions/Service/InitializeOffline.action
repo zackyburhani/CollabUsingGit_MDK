@@ -1,0 +1,17 @@
+{
+	"Service": "/CollabUsingGit/Services/serviceGit.service",
+	"DefiningRequests": [
+	{
+		"Name": "Customers",
+		"Query": "Customers"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/CollabUsingGit/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/CollabUsingGit/Actions/Service/InitializeOfflineFailureMessage.action"
+}

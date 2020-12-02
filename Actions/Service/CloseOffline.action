@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/CollabUsingGit/Services/serviceGit.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/CollabUsingGit/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/CollabUsingGit/Actions/Service/CloseOfflineFailureMessage.action"
+}
